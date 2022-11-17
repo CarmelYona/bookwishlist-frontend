@@ -1,0 +1,55 @@
+.book-details {
+    height: 100%;
+    background-color: $clr3;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000;
+    box-shadow: 0px 0px 15px -10px #000000;
+
+    .book-header {
+        padding: 1.7rem;
+
+        .book-header-wrapper {
+            padding-bottom: 1.2rem;
+            justify-content: space-between;
+            border-bottom: 0.1rem solid $clr2;
+
+            .book-title {
+                color: $clr2;
+                font-size: 1.2rem;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            input:checked {
+                color: #000000;
+            }
+        }
+    }
+
+    .book-info-wrapper {
+        height: 100%;
+        padding: 1.7rem;
+        color: $clr2;
+
+        .book-author {
+            color: $clr8;
+        }
+
+        p {
+            height: 14rem;
+            line-height: 1.7rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .rating-wrapper {
+            align-items: center;
+        }
+
+    }
+}

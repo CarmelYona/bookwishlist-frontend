@@ -1,0 +1,47 @@
+.book-preview {
+    height: 3rem;
+    width: 100%;
+    background-color: $clr3;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.11); 
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.11);
+
+    &:hover {}
+
+    .book-header {
+        height: 100%;
+        width: 100%;
+
+        .divider {
+            height: 100%;
+            width: 15px;
+            background-color: $clr4;
+            margin-right: 10px;
+        }
+
+        .book-title {
+            width: 80%;
+            color: $clr2;
+            font-size: 1.2rem;
+            align-items: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    .btn-wrapper {
+        width: 40px;
+        padding: 10px;
+
+        button {
+            border: none;
+            background-color: $clr2;
+            color: $clr3;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+}

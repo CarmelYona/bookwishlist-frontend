@@ -1,0 +1,27 @@
+.book-app {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate((-50%, -50%));
+
+    .book-card-container {
+        height: 50vh;
+        width: 45vh;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            color: $clr5;
+            height: 2rem;
+            border: none;
+            background-color: transparent;
+            font-size: 2rem;
+        }
+
+        .not-allowed {
+            color: $clr2;
+            cursor: not-allowed;
+        }
+
+    }
+}
